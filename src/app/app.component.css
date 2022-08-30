@@ -1,3 +1,6 @@
-bady{
-    background-color: beige;
-}
+body {
+    height: 2000px;
+    background-color: #6cbce1; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, #6cbce1, #1e38e5);
+
+  }
