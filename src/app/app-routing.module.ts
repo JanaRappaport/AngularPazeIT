@@ -4,8 +4,9 @@ import { EntryComponent } from './components/entry/entry.component';
 import { LogInComponent } from './components/log-in/log-in.component';
 
 const routes: Routes = [
- {path:'logIn' ,component:LogInComponent} ,
- {path:'' , component:EntryComponent}
+  {path:'' , component:EntryComponent},
+ {path:'logIn' ,component:LogInComponent} 
+
 ];
 
 @NgModule({
