@@ -12,7 +12,7 @@ export class UserService {
 
   AddUser(user: User) :Observable<boolean>
   {
-    return this.http.post<boolean>(environment.url + 'User/aAddUser', user)
+    return this.http.post<boolean>(environment.url + 'User/addUser', user)
   }
   GetNumOfUsers() :Observable<boolean>
   {
